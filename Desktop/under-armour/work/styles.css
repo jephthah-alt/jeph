@@ -1,0 +1,317 @@
+/* Existing Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+.flex{
+    display: flex;
+}
+.gap{
+    gap: 25px;
+}
+.align{
+    align-items: center;
+    justify-content: center;
+}
+.fire{
+    height: 20px;
+    width: 20px;
+}
+.margin{
+    margin: auto;
+    width: 98%;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
+}
+nav{
+    position: relative;
+}
+.nav{
+    height: 100px;
+    background-color: black;
+    
+}
+.top-nav{
+    border-bottom: 2px solid white;
+    gap: 70px;
+}
+.item1-0 p{
+    font-size: 13px;
+color: white;
+display: flex;
+align-items: center;
+justify-content: end;
+text-decoration: underline;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.item1-0 p:hover{
+    text-decoration: none;
+}
+.imgg1{
+    height: 30px;
+    width: 30px;
+}
+.items a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.items a:hover{
+    border-bottom: 2px solid white;
+    
+    transition: .6s ease-in-out;
+}
+.items{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+}
+.items li{
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.low-nav{
+  padding: 10px 10px;
+  gap: 130px;
+}
+.imgg2{
+    
+}
+.lownav-item{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    
+}
+.lownav-item a{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.lownav-item li{
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.lownav-item li:hover{
+    border-bottom: 2px solid white;
+    
+    transition: .6s ease-in-out;
+}
+.search input{
+    background-color: transparent;
+    border: none;
+    border-bottom: .1px solid white;
+}
+/* New Top Section Styles with 4 Images */
+
+.top-section {
+    background-color: #e3e3e3;
+    padding: 15px 15px;
+}
+
+.h1{
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 40px;
+}
+.top-section .image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.image-item {
+    background-color: #fff;
+    padding: 0px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.image-item img {
+    width: 100%;
+    border-radius: 0px;
+    margin-bottom: 15px;
+}
+
+.image-item h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.image-item p {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Sidebar and Product Styles Below the Top Section */
+
+.main-content {
+    display: flex;
+}
+
+.sidebar {
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    height: 5150px;
+    top: 0; /* Sidebar starts after the top section */
+    left: 0;
+
+}
+
+.sidebar h2, .sidebar h3 {
+    margin-top: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px 0;
+    color: #777;
+    cursor: pointer;
+}
+
+.sidebar ul li:hover {
+    color: #000;
+}
+
+.filter-group {
+    margin-bottom: 20px;
+}
+
+.filter-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.filter-group select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.products {
+    margin-left: 270px;
+    padding: 20px;
+    width: calc(100% - 270px);
+}
+.product-grid{
+    gap: 20px;
+    height: 400px;
+}
+.product-item {
+    background-color: #fff;
+    padding: 0px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+}
+.product-item p{
+    display: flex;
+    align-items: start;
+}
+.product-item h6{
+    align-items: start;
+    display: flex;
+}
+.circle{
+    display: flex;
+    justify-content: space-between;
+    width: 70px;
+    margin-top: -10px;
+
+}
+.yellow{
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+    background-color: red;
+    border: none;
+}
+.white{
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+    background-color: whitesmoke;
+}
+.pink{
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+    background-color: pink;
+    border: none;
+}
+.btn button{
+    padding: 0px;
+    border-radius: 7px;
+    width: 50%;
+}
+.product-item img {
+    width: 100%;
+    border-radius: 0px;
+    margin-bottom: 15px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 25px;
+}
+.sort-bar {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.sort-bar select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+.text{
+    width: 85%;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    margin-left: 185px;
+}
+.text1{
+    width: 42.5%;
+}
+.text2{
+    width: 42.5%;
+    margin-top: 80px;
+}
+/* footerbegin */
+footer{
+    background-color: #F0F0F0;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+}
